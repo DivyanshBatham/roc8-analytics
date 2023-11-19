@@ -1,11 +1,7 @@
 {
   "functions": [
     {
-      "source": "functions",
-      "codebase": "default"
-    },
-    {
-      "source": "roc8-analytics-functions",
+      "source": "firebase-functions",
       "codebase": "roc8-analytics",
       "ignore": [
         "node_modules",
@@ -25,11 +21,7 @@
   },
   "hosting": {
     "source": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "frameworksBackend": {
       "region": "asia-east1"
     }
