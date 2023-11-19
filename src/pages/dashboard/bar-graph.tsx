@@ -15,6 +15,8 @@ import {
   Tooltip,
   Legend,
   InteractionItem,
+  BarController,
+  LineController,
 } from "chart.js";
 
 import {
@@ -29,7 +31,9 @@ ChartJS.register(
   CategoryScale,
   LinearScale,
   BarElement,
+  BarController,
   PointElement,
+  LineController,
   LineElement,
   Title,
   Tooltip,
